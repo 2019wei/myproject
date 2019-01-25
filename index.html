@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href='css/animate.css'">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/all.js"></script>
+    <title>我的瑪莉歐世界</title>
+  </head>
+
+  <body>
+   <!-- nabar -->
+   <div class="bg-danger py-1">
+       <div class="container text-right ">
+            <a href="#" class = "text-white badge badge-dark"><i class="fab fa-github fa-2x"></i>github</i></a>
+       </div>
+      
+   </div>        
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+       <div class="container">
+            <a class="navbar-brand" href="#">我們的瑪利歐</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">首頁 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    瑪利歐的世界
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#introduction">人物介紹</a>
+                    <a class="dropdown-item" href="#ticket">誰是人氣王票選</a>
+                    <a class="dropdown-item" href="#Surprise">Surprise</a>
+                  </div>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                    <a href="" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">登入</a>
+                    <a href="" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">註冊</a>
+                  </form>
+            </div>
+       </div>
+  </nav>
+  <!-- 輪播 -->
+  <header>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item bg-cover header-img active">
+                <div class="carousel-caption d-none d-md-block px-2">
+                    <h5>宮本茂</h5>
+                    <p>創造一個遊戲，通常要花個一到兩年的時間。不過，在此之前，有些電子早已在你的腦子裏醖釀了三、四年，甚至五年時間。</p>
+                  </div>
+            </div>
+            <div class="carousel-item header2-img bg-cover">
+                <div class="carousel-caption d-none d-md-block px-2">
+                    <h5>岩田聰</h5>
+                    <p>在我名片上，我是公司的總裁。在我腦海裡，我則是遊戲開發者。但在我心目中，我是遊戲玩家。</p>
+                  </div>
+            </div>
+            <div class="carousel-item header3-img bg-cover">
+                <div class="carousel-caption d-none d-md-block px-2">
+                    <h5>宮本茂</h5>
+                    <p>我們通過提供『有趣』的體驗而成功，因此我們應該更多地把錢投入創造『樂趣』之中。</p>
+                  </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </header>
+    <!-- 簡介 -->
+    <section class="bg-info py-5 text-white">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                  <div class="img-fluid text-center mb-2"><img src="img/tube200.jpg" alt="" ></div>
+                <h3>別害怕走未知的路</h3>
+                <p>時時保有冒險精神，鼓起勇氣，偶爾走走不同的道路、嘗試不同的事情或許也能看見新風景！</p>
+              </div>
+              <div class="col-md-4">
+                  <div class="img-fluid text-center mb-2"><img src="img/reset200.png" alt=""></div>
+                  <h3>這世上沒有絕對「Game Over」的事</h3>
+                  <p>儘管會受傷、會失敗，你永遠都有「從頭開始」的選擇。</p>                 
+              </div>
+              <div class="col-md-4">
+                  <div class="img-fluid text-center mb-2"><img src="img/coin200.png" alt="" ></div>
+                  <h3>堅持不懈</h3>
+                  <p>只要堅持一直撞磚塊，總有一天給你敲出金幣喔</p>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- 內容 -->
+    <section class="container-fluid py-5 bg-light content-1 text-white">
+      <div class="row">
+        <div class="col-md-5 content-img"></div>
+      </div>
+      <div class="container">
+        <div class="row d-flex justify-content-end text-md-dark">
+          <div class="col-md-7">
+              <h3>Hello~歡迎來到瑪利歐的世界!!</h3>
+              <p>瑪利歐系列是日本電子遊戲製造商任天堂開發的電子遊戲系列，其中自紅白機上的經典《超級瑪利歐兄弟》開創的動作遊戲系列，官方稱之為《超級瑪利歐系列》，其他還有賽車、運動、RPG等系列存在。迄今所有系列的合計銷量已超過5億份，是史上銷量最高的電子遊戲系列。本系列已成為任天堂的招牌系列。</p>
+              <div class="row mt-3">
+                <div class="col-md-4">                
+                      <div class="mr-2"><img src="img/g3120.png" alt=""></div>
+                      <h3>烏龜</h3>
+                      <p>烏龜是瑪利歐系列的雜兵之祖，最早就出現的經典敵人，可說是最有代表性的。</p>                                   
+                </div>
+                <div class="col-md-4">
+                    <div class="mr-2"><img src="img/g1120.png" alt=""></div>
+                    <h3>蘑菇</h3>
+                    <p>瑪利歐系列當中最為經典的敵人之一，相當弱小，常常都是跳起來一踩就扁了，一直以來給人一種不堪一擊的脆弱形象。</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="mr-2"><img src="img/g2120.png" alt=""></div>
+                    <h3>食人花</h3>
+                    <p>一代就出現,躲在水管中,站在水管上或旁邊就不會出來。</p>
+                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- 人物介紹 -->
+    <section>
+    <div class="py-5">
+      <div class="container">
+        <h2 id='introduction' class = "text-center my-3">人物介紹</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="d-flex">
+                <div class="mr-3"><img src="img/m11.png" alt=""></div>
+                <div>
+                  <h3>瑪利歐(Mario)</h3>
+                  <p>特徵：大鼻子、捲鬍、紅色裝扮、標記Ｍ的帽子</p>
+                  <p>性格：外向、自信家、富正義感、熱血</p>
+                  <p>最愛：用手比V字形、得到碧琪公主的吻</p>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+              <div class="d-flex">
+                  <div class="mr-3"><img src="img/l11.png" alt=""></div>
+                  <div>
+                    <h3>路易吉(Luigi)</h3>
+                    <p>特徵：綠色裝扮、大鬍子、標記Ｌ的帽子</p>
+                    <p>性格：內向、冷靜、低調、不太理會外在事物、討厭麻煩、有點膽小</p>
+                    <p>興趣：吃喝玩樂睡</p>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="d-flex">
+                  <div class="mr-3"><img src="img/t11.png" alt=""></div>
+                  <div>
+                    <h3>奇諾比奧(Toad)</h3>
+                    <p>特徵：紅點香菇頭</p>
+                    <p>性格：天真開朗、開心果類型</p>
+                    <p>興趣：幫助別人、搞笑</p>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="d-flex">
+                  <div class="mr-3"><img src="img/p11.png" alt=""></div>
+                  <div>
+                    <h3>碧琪(Peach)</h3>
+                    <p>特徵：金色長髮、粉紅長裙(運動類則是短裙)、身上多處有飾品</p>
+                    <p>性格：溫和、文靜</p>
+                    <p>有關Peach公主被綁架的次數史：目前是17次，這個數字是隨時會更新的，只要有關瑪利歐的單人玩遊戲又出現。</p>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="d-flex">
+                  <div class="mr-3"><img src="img/y11.png" alt=""></div>
+                  <div>
+                    <h3>耀西(Yoshi)</h3>
+                    <p>特徵：大鼻子大眼睛、舌頭很長、有穿鞋</p>
+                    <p>性格：溫和、活潑、富具親和力</p>
+                    <p>興趣：吃水果、睡覺</p>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="d-flex">
+                  <div class="mr-3"><img src="img/b11.png" alt=""></div>
+                  <div>
+                    <h3>庫巴(Bowser)</h3>
+                    <p>性格：邪惡、凶暴、堅毅、自尊心強</p>
+                    <p>興趣：單戀並綁架碧琪公主、向瑪利歐挑戰</p>
+                    <p>特徵：巨大的身軀、背上的巨刺甲殼</p>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- 表單map -->
+  <section>
+    <div class="py-5 bg-light">
+      <div class="container">
+        <h2 id="ticket" class = "text-center">誰是人氣王票選!!</h2>
+        <div class="row">
+          <div class="col-md-6">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1826.7468893910286!2d120.53432290917394!3d23.694054685366854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346ec81b12d4678d%3A0x783dbdf1e022c832!2z5ZyL56uL6Zuy5p6X56eR5oqA5aSn5a245aSn56au5aCC!5e0!3m2!1szh-TW!2stw!4v1548405520341" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          <div class="col-md-6">
+            <form>
+              <div class="form-group">
+                <label for="name">姓名*</label>
+                  <input type="text" class="form-control" id="name" placeholder="請輸入性名" required>
+                  <div class="form-group">
+                      <label for="mail">e-mail*</label>
+                        <input type="email" class="form-control" id="mail" placeholder="請輸入電子信箱" required>
+                      <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                              瑪利歐
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                              路易
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+                            <label class="form-check-label" for="exampleRadios3">
+                              奇諾比奧
+                            </label>
+                       </div>
+                       <div class="form-check">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+                          <label class="form-check-label" for="exampleRadios3">
+                            碧琪
+                          </label>
+                     </div>
+                     <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+                        <label class="form-check-label" for="exampleRadios3">
+                          耀西
+                        </label>
+                   </div>
+                   <div class="form-check">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked>
+                      <label class="form-check-label" for="exampleRadios3">
+                        庫巴
+                      </label>
+                 </div>
+                       <div class="text-right">
+                       <button type="button" class="btn btn-secondary">取消</button>
+                       <button type="submit" class="btn btn-success">送出</button>
+                       </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- 最底 -->
+  <section>
+    <div class="contain">
+    <div id='Surprise' class="box1 animated">
+      <a href="#"><img src="img/click.png" alt="" width="300px" height="200px"></a>
+    </div>
+    <div class="box2">
+      <img class="img-fluid" src="img/end.jpg" alt="">
+    </div>
+    </div>
+  </section>
+  
+  <!-- top返回 -->
+<div class="top"> <a href="#"><img src="img/top11.png" alt=""></a></div>
+
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+.header-img{
+    height: 350px;
+    background-image: url(../img/a1.jpg);
+}
+.header2-img{
+    height: 350px;
+    background-image: url(../img/a2.jpg);
+}
+.header3-img{
+    height: 350px;
+    background-image: url(../img/a3.png);
+}
+.bg-cover{
+    background-size: cover;
+    background-position: center;    
+}
+.carousel-caption{
+    background-color: rgba(0, 0,0, 0.5)
+}
+.content-1{
+    position: relative;
+}
+.content-img{
+    background-image: url(../img/c1.jpg);
+    position: absolute; top: 0;  bottom: 0;
+    background-size: cover;
+}
+@media (min-width: 768px) { 
+    .text-md-dark{
+    color: #333; 
+    }
+}
+.img1{
+   
+}
+
+.box1{
+    float: left;
+}
+.box2{
+    float: left;
+    max-width: 1100px;
+    margin-bottom: 10px;
+    display: none;
+}
+.top{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
