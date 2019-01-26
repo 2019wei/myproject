@@ -58,64 +58,88 @@ cursor: crosshair;
     width: 146px;
     height: 300px;
     transition: all 2s;
+    background-repeat: no-repeat;
+    background-size: 95%;
 }
 .img-1:hover{
     background-image: url('../img/m22.png');
     width: 146px;
     height: 300px;
+    background-repeat: no-repeat;
+    background-size: 95%;
 }
 .img-2{
     background-image: url(../img/l11.png);
     width: 146px;
     height: 300px;
     transition: all 2s;
+    background-repeat: no-repeat;
+    background-size: 95%;
 }
 .img-2:hover{
     background-image: url(../img/l22.png);
     width: 146px;
     height: 300px;
+    background-repeat: no-repeat;
+    background-size: 95%;
 }
 .img-3{
     background-image: url(../img/t11.png);
     width: 146px;
     height: 300px;
     transition: all 2s;
+    background-repeat: no-repeat;
+    background-size: 95%;
 }
 .img-3:hover{
     background-image: url(../img/t22.png);
     width: 146px;
     height: 300px;
+    background-repeat: no-repeat;
+    background-size: 95%;
 }
 .img-4{
     background-image: url(../img/p11.png);
     width: 146px;
     height: 300px;
     transition: all 2s;
+    background-repeat: no-repeat;
+    background-size: 95%;
 }
 .img-4:hover{
     background-image: url(../img/p22.png);
     width: 146px;
     height: 300px;
+    background-repeat: no-repeat;
+    background-size: 95%;
 }
 .img-5{
     background-image: url(../img/y11.png);
     width: 146px;
     height: 300px;
     transition: all 2s;
+    background-repeat: no-repeat;
+    background-size: 95%;
 }
 .img-5:hover{
     background-image: url(../img/y22.png);
     width: 146px;
     height: 300px;
+    background-repeat: no-repeat;
+    background-size: 95%;
 }
 .img-6{
     background-image: url(../img/b11.png);
     width: 146px;
     height: 300px;
     transition: all 2s;
+    background-repeat: no-repeat;
+    background-size: 95%;
 }
 .img-6:hover{
     background-image: url(../img/b22.png);
     width: 146px;
     height: 300px;
+    background-repeat: no-repeat;
+    background-size: 95%;
 }
