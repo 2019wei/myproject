@@ -20,6 +20,10 @@
 .content-1{
     position: relative;
 }
+.content-2{
+    background-image: url(../img/m66.png);
+    background-repeat: repeat;
+}
 .content-img{
     background-image: url(../img/c1.jpg);
     position: absolute; top: 0;  bottom: 0;
@@ -29,9 +33,6 @@
     .text-md-dark{
     color: #333; 
     }
-}
-.img1{
-   
 }
 
 .box1{
@@ -47,4 +48,74 @@
     position: fixed;
     bottom: 0;
     right: 0;
+}
+.box1 a:hover {
+margin: 10px;
+cursor: crosshair;
+}
+.img-1{
+    background-image: url(../img/m11.png);
+    width: 146px;
+    height: 300px;
+    transition: all 2s;
+}
+.img-1:hover{
+    background-image: url(../img/m22.png);
+    width: 146px;
+    height: 300px;
+}
+.img-2{
+    background-image: url(../img/l11.png);
+    width: 146px;
+    height: 300px;
+    transition: all 2s;
+}
+.img-2:hover{
+    background-image: url(../img/l22.png);
+    width: 146px;
+    height: 300px;
+}
+.img-3{
+    background-image: url(../img/t11.png);
+    width: 146px;
+    height: 300px;
+    transition: all 2s;
+}
+.img-3:hover{
+    background-image: url(../img/t22.png);
+    width: 146px;
+    height: 300px;
+}
+.img-4{
+    background-image: url(../img/p11.png);
+    width: 146px;
+    height: 300px;
+    transition: all 2s;
+}
+.img-4:hover{
+    background-image: url(../img/p22.png);
+    width: 146px;
+    height: 300px;
+}
+.img-5{
+    background-image: url(../img/y11.png);
+    width: 146px;
+    height: 300px;
+    transition: all 2s;
+}
+.img-5:hover{
+    background-image: url(../img/y22.png);
+    width: 146px;
+    height: 300px;
+}
+.img-6{
+    background-image: url(../img/b11.png);
+    width: 146px;
+    height: 300px;
+    transition: all 2s;
+}
+.img-6:hover{
+    background-image: url(../img/b22.png);
+    width: 146px;
+    height: 300px;
 }
