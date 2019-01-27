@@ -46,8 +46,8 @@
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
-                    <a href="" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">登入</a>
-                    <a href="" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">註冊</a>
+                    <a href="" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">全台即時紫外線資料</a>
+                    <a href="" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">全台紫外線分佈圖</a>
                   </form>
             </div>
        </div>
@@ -151,7 +151,8 @@
         <div class="row">
           <div class="col-md-6">
             <div class="d-flex">
-                <div class="mr-3 img-1 img-fluid"></div>                              
+              <div class="img-1-1">Click</div>
+                <div class="mr-3 img-1 img-fluid"></div>                          
                 <div>
                   <h3>瑪利歐(Mario)</h3>
                   <p>特徵：大鼻子、捲鬍、紅色裝扮、標記Ｍ的帽子</p>
@@ -304,37 +305,36 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <h5 class="modal-title" id="exampleModalLabel">紫外線即時監測資料-中央氣象局</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
-          ...
+        <div class="modal-body1 px-5">
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-primary"><a class="text-light" href="#" data-dismiss="modal" data-toggle="modal" data-target="#exampleModal2">切換分佈圖</a></button>
         </div>
       </div>
     </div>
   </div>
   <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <h5 class="modal-title" id="exampleModalLabel">中央氣象局</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
-          ...
+        <div class="modal-body2">
+          <img src="https://www.cwb.gov.tw/V7/observe/UVI/Data/UVI.png" alt="">
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-primary"><a class="text-light" href="#" data-dismiss="modal" data-toggle="modal" data-target="#exampleModal">切換資料表</a></button>
         </div>
       </div>
     </div>

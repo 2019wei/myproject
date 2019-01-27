@@ -12,4 +12,39 @@ $(document).ready(function() {
     },3000);
    });
 
+
+// UV api
+var item_template="<li>{{County}}-({{PublishTime}})-{{SiteName}}-UV值:{{UVI}}</li>";
+var data_url="http://opendata2.epa.gov.tw/UV/UV.json";
+var tododata;
+
+
+$.ajax(
+  {
+    url: data_url,
+    success: function(res){
+      console.log(res); 
+      for(var i=0;i<res.length;i++){
+        console.log(res.length)
+        var now_item =
+        item_template.replace('{{County}}',res[i].County)
+                     .replace('{{PublishTime}}',res[i].PublishTime)
+                     .replace('{{SiteName}}',res[i].SiteName)
+                     .replace('{{UVI}}',res[i].UVI)
+                     
+        $('.modal-body1').append(now_item);
+        
+        
+     
+      }
+     
+      
+      }
+    }
+  
+);
+
+
+
+
   });
