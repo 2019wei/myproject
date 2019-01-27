@@ -13,7 +13,7 @@ $(document).ready(function() {
    });
 
 
-// UV api
+// UV api 
 var item_template="<li>{{County}}-({{PublishTime}})-{{SiteName}}-UV值:{{UVI}}</li>";
 var data_url="http://opendata2.epa.gov.tw/UV/UV.json";
 var tododata;
