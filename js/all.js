@@ -22,6 +22,9 @@ var tododata;
 $.ajax(
   {
     url: data_url,
+    data: {
+        zipcode: 97201
+      },
     success: function(res){
       console.log(res); 
       for(var i=0;i<res.length;i++){
