@@ -35,7 +35,7 @@ $.ajax(
                      .replace('{{SiteName}}',res[i].SiteName)
                      .replace('{{UVI}}',res[i].UVI)
                      
-        $('.modal-body1').append(now_item);
+        $('.modal-body').append(now_item);
         
         
      
