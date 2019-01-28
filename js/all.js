@@ -49,5 +49,12 @@ $.ajax(
 
 
 
+$('[data-dismiss="modal"][data-toggle="modal"]').on('click',function(){
+ var target = $(this).data('target');
+ $(target).on('shown.bs.modal',function(){
+ $('body').addClass('modal-open');
+ });
+});
+
 
   });
