@@ -11,7 +11,9 @@ $(document).ready(function() {
         scrollTop: 0
     },3000);
    });
-
+//loading
+    $( "body" ).loading(); // 開始
+    $( "body" ).loading( "stop" ) // 停止
 
 // UV api 
 var item_template="<li>{{County}}-({{PublishTime}})-{{SiteName}}-UV值:{{UVI}}</li>";
@@ -56,5 +58,9 @@ $('[data-dismiss="modal"][data-toggle="modal"]').on('click',function(){
  });
 });
 
+
+
+
+///loading
 
   });
